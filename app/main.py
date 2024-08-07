@@ -19,7 +19,7 @@ oauth.register(
     client_secret=CLIENT_SECRET,
     client_kwargs={
         'scope': 'email openid profile',
-        'redirect_url': 'https://railwayapp-production-271b.up.railway.app/auth'
+        'redirect_url': 'https://railwayapp.up.railway.app/auth'
     }
 )
 
